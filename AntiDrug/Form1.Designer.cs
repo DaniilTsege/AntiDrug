@@ -43,9 +43,10 @@ namespace AntiDrug
             // 
             // btOpenText
             // 
-            this.btOpenText.Location = new System.Drawing.Point(33, 46);
+            this.btOpenText.Location = new System.Drawing.Point(44, 57);
+            this.btOpenText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btOpenText.Name = "btOpenText";
-            this.btOpenText.Size = new System.Drawing.Size(215, 23);
+            this.btOpenText.Size = new System.Drawing.Size(287, 28);
             this.btOpenText.TabIndex = 0;
             this.btOpenText.Text = "Открыть";
             this.btOpenText.UseVisualStyleBackColor = true;
@@ -54,26 +55,29 @@ namespace AntiDrug
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 30);
+            this.label1.Location = new System.Drawing.Point(40, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 13);
+            this.label1.Size = new System.Drawing.Size(172, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "Открыть файл с текстом";
             // 
             // lbTextLoaded
             // 
             this.lbTextLoaded.AutoSize = true;
-            this.lbTextLoaded.Location = new System.Drawing.Point(254, 56);
+            this.lbTextLoaded.Location = new System.Drawing.Point(339, 69);
+            this.lbTextLoaded.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbTextLoaded.Name = "lbTextLoaded";
-            this.lbTextLoaded.Size = new System.Drawing.Size(72, 13);
+            this.lbTextLoaded.Size = new System.Drawing.Size(90, 17);
             this.lbTextLoaded.TabIndex = 1;
             this.lbTextLoaded.Text = "Не загружен";
             // 
             // btOpenBanWords
             // 
-            this.btOpenBanWords.Location = new System.Drawing.Point(33, 112);
+            this.btOpenBanWords.Location = new System.Drawing.Point(44, 138);
+            this.btOpenBanWords.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btOpenBanWords.Name = "btOpenBanWords";
-            this.btOpenBanWords.Size = new System.Drawing.Size(215, 23);
+            this.btOpenBanWords.Size = new System.Drawing.Size(287, 28);
             this.btOpenBanWords.TabIndex = 0;
             this.btOpenBanWords.Text = "Открыть";
             this.btOpenBanWords.UseVisualStyleBackColor = true;
@@ -82,36 +86,40 @@ namespace AntiDrug
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 88);
+            this.label3.Location = new System.Drawing.Point(40, 108);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(218, 13);
+            this.label3.Size = new System.Drawing.Size(279, 17);
             this.label3.TabIndex = 1;
             this.label3.Text = "Открыть файл с запрещенными словами";
             // 
             // lbBanWordsLoaded
             // 
             this.lbBanWordsLoaded.AutoSize = true;
-            this.lbBanWordsLoaded.Location = new System.Drawing.Point(254, 117);
+            this.lbBanWordsLoaded.Location = new System.Drawing.Point(339, 144);
+            this.lbBanWordsLoaded.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbBanWordsLoaded.Name = "lbBanWordsLoaded";
-            this.lbBanWordsLoaded.Size = new System.Drawing.Size(72, 13);
+            this.lbBanWordsLoaded.Size = new System.Drawing.Size(90, 17);
             this.lbBanWordsLoaded.TabIndex = 1;
             this.lbBanWordsLoaded.Text = "Не загружен";
             // 
             // lbBanWords
             // 
             this.lbBanWords.AutoSize = true;
-            this.lbBanWords.Location = new System.Drawing.Point(30, 213);
-            this.lbBanWords.MaximumSize = new System.Drawing.Size(300, 150);
-            this.lbBanWords.MinimumSize = new System.Drawing.Size(300, 150);
+            this.lbBanWords.Location = new System.Drawing.Point(40, 262);
+            this.lbBanWords.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbBanWords.MaximumSize = new System.Drawing.Size(400, 185);
+            this.lbBanWords.MinimumSize = new System.Drawing.Size(400, 185);
             this.lbBanWords.Name = "lbBanWords";
-            this.lbBanWords.Size = new System.Drawing.Size(300, 150);
+            this.lbBanWords.Size = new System.Drawing.Size(400, 185);
             this.lbBanWords.TabIndex = 2;
             // 
             // btCheck
             // 
-            this.btCheck.Location = new System.Drawing.Point(33, 160);
+            this.btCheck.Location = new System.Drawing.Point(44, 197);
+            this.btCheck.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btCheck.Name = "btCheck";
-            this.btCheck.Size = new System.Drawing.Size(215, 23);
+            this.btCheck.Size = new System.Drawing.Size(287, 28);
             this.btCheck.TabIndex = 3;
             this.btCheck.Text = "Проверить";
             this.btCheck.UseVisualStyleBackColor = true;
@@ -120,9 +128,10 @@ namespace AntiDrug
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(30, 186);
+            this.label7.Location = new System.Drawing.Point(40, 229);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 13);
+            this.label7.Size = new System.Drawing.Size(97, 17);
             this.label7.TabIndex = 2;
             this.label7.Text = "Вероятность ";
             // 
@@ -132,9 +141,9 @@ namespace AntiDrug
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(342, 367);
+            this.ClientSize = new System.Drawing.Size(456, 267);
             this.Controls.Add(this.btCheck);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.lbBanWords);
@@ -144,6 +153,7 @@ namespace AntiDrug
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btOpenBanWords);
             this.Controls.Add(this.btOpenText);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Антинаркотик";
             this.ResumeLayout(false);
